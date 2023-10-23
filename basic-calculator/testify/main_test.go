@@ -7,7 +7,6 @@ import (
 )
 
 func TestCalculatorAdd(t *testing.T) {
-	// var cal Calculable
 	cal := Calculable(&Calculator{})
 	result := cal.Addition(1, 3)
 
