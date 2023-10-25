@@ -9,7 +9,7 @@ func TestCalculatorAddiction(t *testing.T) {
 	want := 4
 
 	if got != want {
-		t.Errorf("Error. Got %q and the right calculus is %q", got, want)
+		t.Errorf("Error. Got %d and the right calculus is %d", got, want)
 	}
 }
 
@@ -20,7 +20,7 @@ func TestCalculatorSubtraction(t *testing.T) {
 	want := 8
 
 	if got != want {
-		t.Errorf("Error. Got %q and the right calculus is %q", got, want)
+		t.Errorf("Error. Got %d and the right calculus is %d", got, want)
 	}
 }
 
@@ -31,7 +31,7 @@ func TestCalculatorDivision(t *testing.T) {
 	want := 2
 
 	if got != want {
-		t.Errorf("Error. Got %q and the right calculus is %q", got, want)
+		t.Errorf("Error. Got %d and the right calculus is %d", got, want)
 	}
 }
 
@@ -42,6 +42,6 @@ func TestCalculatorMultiplication(t *testing.T) {
 	want := 50
 
 	if got != want {
-		t.Errorf("Error. Got %q and the right calculus is %q", got, want)
+		t.Errorf("Error. Got %d and the right calculus is %d", got, want)
 	}
 }

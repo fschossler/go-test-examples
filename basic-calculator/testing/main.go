@@ -12,7 +12,7 @@ type Calculable interface {
 type Calculator struct{}
 
 func (c *Calculator) Addition(num1, num2 int) int {
-	return num1 + num2
+	return num1 - num2
 }
 
 func (c *Calculator) Subtraction(num1, num2 int) int {
