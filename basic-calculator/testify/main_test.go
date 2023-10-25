@@ -7,6 +7,7 @@ import (
 )
 
 func TestCalculatorAdd(t *testing.T) {
+	t.Parallel()
 	cal := Calculable(&Calculator{})
 	result := cal.Addition(1, 3)
 
@@ -14,6 +15,7 @@ func TestCalculatorAdd(t *testing.T) {
 }
 
 func TestCalculatorSubtraction(t *testing.T) {
+	t.Parallel()
 	// var cal Calculable
 	cal := Calculable(&Calculator{})
 	result := cal.Subtraction(10, 3)
@@ -22,6 +24,7 @@ func TestCalculatorSubtraction(t *testing.T) {
 }
 
 func TestCalculatorDivision(t *testing.T) {
+	t.Parallel()
 	// var cal Calculable
 	cal := Calculable(&Calculator{})
 	result := cal.Division(10, 5)
@@ -30,6 +33,7 @@ func TestCalculatorDivision(t *testing.T) {
 }
 
 func TestCalculatorMultiplication(t *testing.T) {
+	t.Parallel()
 	// var cal Calculable
 	cal := Calculable(&Calculator{})
 	result := cal.Multiplication(2, 5)
